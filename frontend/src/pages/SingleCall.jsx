@@ -62,22 +62,7 @@ const SingleCall = () => {
   // })
   // navigate('/call')
 
-  // else{
-  //   const intervel=  setInterval(()=>{
-  //   time=time+=1
-  //   const ok=Boolean(time > 60)
-  //    if(ok){
-  //      console.log('nice')
-  //      console.log(callAccept)
-  //      console.log(ok)
-  //      clearInterval(intervel)
-  //    }else{
-  //       const mote=`0 : ${time}`
-  //       setCallTime(mote)
-  //      }
-  //    },1000)
-  //  }
-
+  
   ///get single user by id
   const single_user=useMemo(()=>{
     return async()=>{

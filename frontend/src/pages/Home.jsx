@@ -15,7 +15,7 @@ import socket from '../Socket';
 
 const Home = () => {
      // const navigate=useNavigate()
-      const menu=[<TbUserSquare/>,<HiUserGroup/>]
+      const menu=[<TbUserSquare/>]
 
        const [I,setI]=useState(0)
        const[search,setSearch]=useState('')
